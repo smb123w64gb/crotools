@@ -65,7 +65,7 @@ uint32_t addr_to_segment(elfio& elf, Elf64_Addr addr)
 int counts[3] = {0};
 section* add_relocation_section(elfio& elf, int segment_index)
 {
-   char* secs[3] = {".text", ".rodata", ".data"};
+   const char* secs[3] = {".text", ".rodata", ".data"};
    char rela_name[32];
    snprintf(rela_name, 32, ".rela%s.%u", secs[segment_index], counts[segment_index]++);
    

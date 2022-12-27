@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2c567800-f63b-4181-98bb-b08e99b7d9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\elfio">
+      <UniqueIdentifier>{b4ad5121-0d8d-476c-9013-8a07585681fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0646b608-a0c7-412b-b031-431b69537b0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elf_types.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_dump.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_dynamic.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_header.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_note.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_relocation.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_section.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_segment.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_strings.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_symbols.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\elfio\elfio_utils.hpp">
+      <Filter>Header Files\elfio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cro2elf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

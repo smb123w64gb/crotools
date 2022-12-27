@@ -55,7 +55,7 @@ typedef struct
    uint32_t addend;
 } CRO_Relocation;
 
-typedef struct  {
+typedef struct  NamedSpace{
    uint32_t offs_mod_name;
    uint32_t import_indexed_symbol_table_offset; // pointing to a subtable in
                                              // ImportIndexedSymbolTable
@@ -71,7 +71,7 @@ typedef struct  {
 
 } CRO_ModuleEntry;
 
-typedef struct
+struct CRO_Header
 {
    uint8_t hash_table[0x80];
    uint32_t magic;
@@ -196,6 +196,6 @@ typedef struct
    {
       return (CRO_Segment*)((char*)cro_data + offs_segments);
    }
-} CRO_Header;
+} ;
 
 #endif
